@@ -23,7 +23,10 @@ class Employee extends Person{
 }
 
 
-
+let Alice=new Person();
+Alice.greet("Alice",25);
+let bob=new Employee();
+bob.jobGreet('Bob',30,'Manager');
 
 // Do not change code below this line
 window.Person = Person;
